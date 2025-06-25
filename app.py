@@ -57,12 +57,12 @@ input_features = ['distance', 'x_axis', 'y_axis']
 output_features = ['s11', 's12', 's21', 's22', 'gain', 'eff_port1', 'eff_port2', 'SAR_port1', 'SAR_port2']
 
 # --- UI Layout ---
-col1, col2 = st.columns([4, 1])
+col1, col2 = st.columns([3, 1])
 with col1:
     st.title("📡 SAR Performance Analysis Using Circular Patch MIMO Antenna")
     st.markdown("Predict SAR values, efficiency, gain, and S-parameters based on antenna position.")
 with col2:
-    st.image("antenna.png", width=100)
+    st.image("antenna.png", width=150)
 
 # Initialize session state for results
 if 'results' not in st.session_state:
