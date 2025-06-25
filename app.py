@@ -34,7 +34,7 @@ st.markdown("""
         background-color: transparent;
     }
     .st-at {
-        background-color: #e0f5d5;
+        background-color: #f0edeb;
     }
     header {
         background-color: #fae7d9 !important;
