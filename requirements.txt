@@ -5,3 +5,6 @@ pandas
 scikit-learn
 matplotlib
 seaborn
+matplotlib
+plotly      # For interactive plots
+scikit-learn # If using ML models
