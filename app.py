@@ -62,7 +62,7 @@ with col1:
     st.title("📡 SAR Performance Analysis Using Circular Patch MIMO Antenna")
     st.markdown("Predict SAR values, efficiency, gain, and S-parameters based on antenna position.")
 with col2:
-    st.image("antenna.png", width=150)
+    st.image("antenna.png", width=100)
 
 # Initialize session state for results
 if 'results' not in st.session_state:
