@@ -8,3 +8,4 @@ seaborn
 matplotlib
 plotly      # For interactive plots
 scikit-learn # If using ML models
+statsmodels>=0.14.0
